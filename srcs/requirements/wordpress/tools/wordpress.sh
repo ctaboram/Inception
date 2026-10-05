@@ -13,4 +13,4 @@ wp core install --url=$DOMAIN_NAME --title=Inception --admin_user=$NAME_ROOT_DB 
 
 wp user create $NAME_USER_DB usuario@ctaboada.42.fr --role=author --user_pass=$PSW_USER_DB --allow-root
 
-php-fpm7.4 -F
+php-fpm8.2 -F
